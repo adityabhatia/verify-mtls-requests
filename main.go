@@ -1,19 +1,19 @@
 package main
 
 import (
-	"github.com/kyma-project/runtime-watcher/kcp/istio/mtls2/certificate"
-	"github.com/kyma-project/runtime-watcher/kcp/istio/mtls2/server"
+	"github.com/kyma-project/verify-mtls-requests/certificate"
+	"github.com/kyma-project/verify-mtls-requests/server"
 )
 
 const (
-	clientPublicKey  = "istio/mtls2/certs/client.pem"
-	clientPrivateKey = "istio/mtls2/certs/client.key"
+	clientPublicKey  = "certs/client.pem"
+	clientPrivateKey = "certs/client.key"
 
-	serverPublicKey  = "istio/mtls2/certs/server.pem"
-	serverPrivateKey = "istio/mtls2/certs/server.key"
+	serverPublicKey  = "certs/server.pem"
+	serverPrivateKey = "certs/server.key"
 
-	rootPublicKey  = "istio/mtls2/certs/ca.pem"
-	rootPrivateKey = "istio/mtls2/certs/ca.key"
+	rootPublicKey  = "certs/ca.pem"
+	rootPrivateKey = "certs/ca.key"
 )
 
 func main() {
